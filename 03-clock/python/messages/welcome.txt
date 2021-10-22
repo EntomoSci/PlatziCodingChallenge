@@ -1,0 +1,5 @@
+
+Welcome!
+
+This Python program takes the hours and minutes from the user
+and return the seconds of the parameters passed.
