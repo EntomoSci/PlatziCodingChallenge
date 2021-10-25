@@ -1,0 +1,11 @@
+
+___________________________________ Welcome ___________________________________
+
+This Python program takes the path to a text file and creates a copy of the
+file without all the vowels.
+
+Test the program using the file 'history.txt' to see how works.
+
+By default all the new files created with this program are saved in the
+'files_without_vowels' folder.
+_______________________________________________________________________________
