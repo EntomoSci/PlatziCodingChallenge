@@ -1,0 +1,9 @@
+
+___________________________________ Welcome ___________________________________
+
+This Python program imitates the behavior of a calculator.
+
+The calculator supports 2 digit operation separating by spaces for now. e.g 2 + 2
+
+To close the program write 'exit'.
+_______________________________________________________________________________
