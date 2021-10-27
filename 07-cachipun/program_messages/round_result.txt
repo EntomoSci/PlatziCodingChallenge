@@ -1,0 +1,11 @@
+
+________________________________ {result_message} ________________________________
+
+You choose: {user_choice}
+Machine choose: {machine_choice}
+
+{user_choice} beats {machine_choice}
+
+User score: {user_score}/3
+Machine score: {machine_score}/3
+_______________________________________________________________________________
