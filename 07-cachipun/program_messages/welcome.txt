@@ -1,0 +1,9 @@
+
+___________________________________ Welcome ___________________________________
+
+This Python program imitates the popular rock, paper or scissors game.
+
+Your oponent will be the machine. The first than win 3 times, wins the game.
+
+To close the program write 'exit'.
+_______________________________________________________________________________
