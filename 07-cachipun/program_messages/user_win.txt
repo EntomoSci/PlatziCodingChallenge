@@ -1,5 +1,5 @@
 
-________________________________ {result_message} ________________________________
+________________________________ ¡Well played! ________________________________
 
 You choose: {user_choice}
 Machine choose: {machine_choice}

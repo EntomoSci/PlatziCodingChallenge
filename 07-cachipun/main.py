@@ -12,7 +12,8 @@ def run():
     game_messages = {
         'welcome': open(messages_path + 'welcome.txt', 'r'),
         'tie': open(messages_path + 'tie.txt', 'r'),
-        'round_result': open(messages_path + 'round_result.txt', 'r'),
+        'user_win': open(messages_path + 'user_win.txt', 'r'),
+        'user_lose': open(messages_path + 'user_lose.txt', 'r'),
         'user_victory': open(messages_path + 'user_victory.txt', 'r'),
         'user_gameover': open(messages_path + 'user_gameover.txt', 'r')
     }
@@ -25,7 +26,7 @@ def run():
     while True:
         machine_choice = random.randint(1,3)
         user_choice = input('1: Rock\n2: Paper\n3: Scissors\n')
-        
+
         try:
             user_choice = int(user_choice)
         except:
@@ -42,19 +43,17 @@ def run():
             machine_choice=machine_string_choice))
         elif compare_choices(user_choice, machine_choice) == 'user':
             score['user'] += 1
-            print(game_messages['round_result']
+            print(game_messages['user_win']
             .read()
-            .format(result_message="¡Well played!",
-            user_choice=user_string_choice,
+            .format(user_choice=user_string_choice,
             machine_choice=machine_string_choice,
             user_score=score['user'],
             machine_score=score['machine']))
         else:
             score['machine'] += 1
-            print(game_messages['round_result']
+            print(game_messages['user_lose']
             .read()
-            .format(result_message="Epic fail",
-            user_choice=user_string_choice,
+            .format(user_choice=user_string_choice,
             machine_choice=machine_string_choice,
             user_score=score['user'],
             machine_score=score['machine']))
